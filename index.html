@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GR Hello · 支持</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px;
+         font: 16px/1.75 -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  .meta { color: #888; font-size: 14px; margin-bottom: 24px; }
+  ul { padding-left: 20px; }
+  ol { padding-left: 20px; }
+  dt { font-weight: 600; margin-top: 14px; }
+  dd { margin: 4px 0 0; color: #666; }
+  hr { border: 0; border-top: 1px solid #8883; margin: 40px 0; }
+  a { color: inherit; }
+  .en { color: #666; }
+  @media (prefers-color-scheme: dark) { .en, dd { color: #aaa; } }
+</style>
+</head>
+<body>
+
+<h1>GR Hello 支持</h1>
+<div class="meta">把 GR 系列相机的照片无线传到 iPhone / Mac · 更新日期 2026-10-08</div>
+
+<h2>使用前提</h2>
+<ul>
+  <li>一台理光 GR 系列相机（GR III / GR IV 等）；</li>
+  <li>相机「无线通讯 → 动作模式」保持开启（GR 系列没有独立蓝牙开关，开启后相机关机状态仍可被唤醒）；</li>
+  <li>首次使用请允许：蓝牙、定位、相册、本地网络（Mac 端为蓝牙以外的对应权限）。</li>
+</ul>
+
+<h2>快速上手</h2>
+<ol>
+  <li>打开 App 并授权 → App 会自动搜索附近的相机；</li>
+  <li>点「连接相机」→ 按提示在相机上确认配对；</li>
+  <li>相连后相册列表出现，点缩略图可放大、下载；</li>
+  <li>底部「快门」按钮进入实时取景，可点选对焦与遥控拍摄。</li>
+</ol>
+
+<h2>常见问题</h2>
+
+<dl>
+  <dt>提示「需要定位权限才能加入相机热点」</dt>
+  <dd>相机的 Wi-Fi 是隐藏网络，系统要求 App 有定位授权才允许扫描并加入。
+      请到 系统设置 → 隐私与安全性 → 定位服务 里允许本 App，然后重试。</dd>
+
+  <dt>提示「加入相机 Wi-Fi 超时——请确认相机已唤醒」</dt>
+  <dd>相机可能还在启动、热点尚未广播。确认相机已开机、电量充足、动作模式已开启后重试。
+      通常是相机刚开机时需要多等十几秒。</dd>
+
+  <dt>提示「自动连接失败……请手动加入」</dt>
+  <dd>说明系统没能自动加入相机热点。可按提示手动加入：macOS 用「系统设置 → Wi-Fi → 加入其他网络」，
+      填 App 显示的 SSID 与密码；iPhone 用「设置 → 无线局域网 → 其他…」。</dd>
+
+  <dt>连接时系统弹出「想要加入 Wi-Fi 网络」</dt>
+  <dd>相机的 Wi-Fi 是隐藏热点，iOS 不允许 App 直接改 Wi-Fi，加入必须由系统代劳，所以会弹这一次确认。
+      点「加入」即可（点「取消」会退回手动加入的引导）。确认过一次后系统会记住这台相机，之后自动重连。</dd>
+
+  <dt>提示「未发现可用的 Mac」</dt>
+  <dd>用 Mac 浏览相机时，需要 iPhone 与 Mac 都在场：先在 Mac 上打开 GR Hello（它会广播自身），
+      iPhone 端即可发现。若仍找不到，检查两台设备是否都允许了「本地网络」权限。</dd>
+
+  <dt>为什么 iPhone 要「始终允许」定位？</dt>
+  <dd>相机开机的那一刻 App 通常处于后台，只有"始终允许"才来得及取到当前位置并同步给相机。
+      不授权也能用，只是会退化为使用最近一次的缓存位置。</dd>
+
+  <dt>下载的照片在哪？</dt>
+  <dd>默认保存到系统相册；也可以导出到「文件」。已下载的照片会在 App 内相册里沉淀，
+      并与相机里的重复照片自动去重。</dd>
+
+  <dt>Mac 版为什么需要 iPhone 在场？</dt>
+  <dd>读取相机 Wi-Fi 凭据需要蓝牙，而 iOS/macOS 的蓝牙能力不同：由 iPhone 直连相机蓝牙读凭据、
+      经局域网传给 Mac，Mac 负责加入热点与下载照片。这样两端都不需要额外的硬件配件。</dd>
+</dl>
+
+<h2>联系我们</h2>
+<p>遇到问题或有建议，欢迎邮件联系：<a href="mailto:ahonglive@gmail.com">ahonglive@gmail.com</a></p>
+<p>隐私政策：<a href="privacy.html">GR Hello 隐私政策</a></p>
+
+<hr>
+
+<div class="en">
+<h1>GR Hello Support</h1>
+<div class="meta">Wireless photo transfer for GR-series cameras · Updated 2026-10-08</div>
+
+<h2>Requirements</h2>
+<ul>
+  <li>A Ricoh GR-series camera (GR III / GR IV and similar).</li>
+  <li>Camera's “Wireless Communication → Action Mode” turned on.</li>
+  <li>Grant Bluetooth, Location, Photos and Local Network permissions on first launch.</li>
+</ul>
+
+<h2>Getting started</h2>
+<ol>
+  <li>Open the app and grant permissions — it searches for nearby cameras automatically.</li>
+  <li>Tap “Connect camera” and confirm pairing on the camera.</li>
+  <li>Browse the roll, tap a thumbnail to view or download.</li>
+  <li>Use the shutter button at the bottom for live view, tap-to-focus and remote capture.</li>
+</ol>
+
+<h2>Common issues</h2>
+
+<dl>
+  <dt>“Location permission is required to join the camera hotspot”</dt>
+  <dd>The camera's Wi-Fi is a hidden network; macOS/iOS only allow scanning and joining it when the app
+      has location authorization. Allow it in System Settings → Privacy & Security → Location Services.</dd>
+
+  <dt>“Timed out joining the camera Wi-Fi”</dt>
+  <dd>The camera may still be booting and its hotspot is not broadcasting yet. Make sure it's powered on,
+      charged, and action mode is on, then retry — it often takes 10–20 seconds after power-on.</dd>
+
+  <dt>“Automatic connection failed — join manually”</dt>
+  <dd>Join the hotspot yourself using the SSID and password shown in the app
+      (macOS: System Settings → Wi-Fi → Other…; iPhone: Settings → Wi-Fi → Other…).</dd>
+
+  <dt>A “Join Wi-Fi Network” prompt appears</dt>
+  <dd>The camera's Wi-Fi is a hidden network and iOS doesn't let apps change Wi-Fi directly, so the system
+      asks for confirmation once. Tap Join (if you cancel, the app falls back to manual instructions).
+      After the first confirmation the system remembers the camera and reconnects automatically.</dd>
+
+  <dt>“No Mac available”</dt>
+  <dd>Using the Mac to browse requires both the iPhone and the Mac: open GR Hello on the Mac first so it
+      advertises itself. Also make sure both devices allow Local Network access.</dd>
+
+  <dt>Why does the iPhone ask for “Always” location?</dt>
+  <dd>The camera can power on while the app is in the background; only “Always” lets the app grab your
+      location at that moment and write it into the camera. Without it the app falls back to a cached location.</dd>
+
+  <dt>Where are downloaded photos?</dt>
+  <dd>They are saved to your Photos library (and can be exported to Files). Downloaded photos also appear in
+      the in-app album and are de-duplicated against the camera roll.</dd>
+</dl>
+
+<h2>Contact</h2>
+<p>Email: <a href="mailto:ahonglive@gmail.com">ahonglive@gmail.com</a> · <a href="privacy.html">Privacy Policy</a></p>
+</div>
+
+</body>
+</html>
